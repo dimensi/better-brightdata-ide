@@ -1,0 +1,27 @@
+.cr_editor_body_r {
+  padding-left: 0 !important;
+}
+
+.cp_dca_ide_preview_browser {
+  border-radius: 0 !important;
+}
+
+.codemirror_wrapper.codemirror_wrapper--js {
+  margin-bottom: 0 !important;
+}
+
+.cp_page.cp_dca_page.cr_editor.cr_editor--dark {
+  padding: 0 !important;
+}
+
+.ide_bottom_tabs {
+  padding: 0 40px 20px;
+}
+
+.cr_editor_head {
+  padding: 0 40px 20px;
+}
+
+.cp_dca_ide_meta {
+  padding: 0 40px 0px;
+}

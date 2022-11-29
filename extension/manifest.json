@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Better Brightdata IDE",
+  "description": "Improve DX in BrightData Collector IDE",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://brightdata.com/cp/data_collector/collectors/*"
+      ],
+      "js": [
+        "content-script.iife.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["https://brightdata.com/*"]
+  },
+  "web_accessible_resources": [{
+    "resources": ["bridge-script.iife.js"],
+    "matches": ["<all_urls>"]
+  }]
+}
